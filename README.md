@@ -63,17 +63,25 @@ This research project focuses on developing an advanced method for detecting lym
    ```
 
 2. Create a virtual environment and activate it:
+   - ### For Mac/Linux
    ```
-   python -m venv venv
-   source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+   python3 -m venv .venv
+   source .venv/bin/activate
+   ```
+   - ### For Windows
+   ```
+   python -m venv .venv
+   .\.venv\Scripts\activate
    ```
 
-3. Install the required dependencies:
+   ### NOTE: Make sure to have venv package installed (if not, try "pip install virtualenv", type pip3 for mac/linux)
+
+4. Install the required dependencies:
    ```
    pip install -r requirements.txt
    ```
 
-4. Download the necessary datasets and place them in the `data/raw/` directory.
+5. Download the necessary datasets and place them in the `data/raw/` directory.
 
 ## Usage
 
